@@ -33,7 +33,7 @@ export default function Home() {
       }
     }
     getStats();
-  }, []);
+  }, [MONTHS]);
   
   return (
     <div className="home">
